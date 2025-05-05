@@ -1,0 +1,40 @@
+.navbar .container .open-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.navbar .container .main-menu img {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar .container ul {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        padding-top: 150px;
+        padding-left: 100px;
+        padding-right: 100px;
+        height: 100vh;
+        gap: 100px;
+        flex-direction: column;
+        background-color: white;
+        transition: 0.3s;
+    }
+
+    .navbar .container ul.open {
+        left: 0;
+    }
+
+    .navbar .container .open-menu {
+        display: block;
+    }
+
+    .navbar .container .main-menu > img {
+        display: block;
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        cursor: pointer;
+    }
+}
