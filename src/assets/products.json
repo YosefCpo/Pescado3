@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "TIMBESTATIN 10/20 mg",
+        "active": "Ezetimibe 10 mg + Simvastatin 20 mg",
+        "indication": "Antihyperlipidemic drug",
+        "dosage_form": "Film Coated Tablets",
+        "package": "2 strips / strip 7 Tablets",
+        "shelf_life": "Three years",
+        "images": ["3.png", "2.png"]
+    },
+    {
+        "id": 2,
+        "name": "LACTOGEMIKAN Caps",
+        "active": "Lactobacillus Plantarum- 10 Billion / Capsule",
+        "indication": "Irritable bowel Syndrome, Antibiotic associated Diarrhea, Supports Natural Immunity",
+        "dosage_form": "Capsules",
+        "package": "3 strips / strip 10 Capsules",
+        "shelf_life": "Two years",
+        "images": ["14.png", "15.png"]
+    },
+    {
+        "id": 3,
+        "name": "Youmagencon Tablets",
+        "active": "Collagen + Chondroitin + MSM",
+        "indication": "Supports Healthy Joints.",
+        "dosage_form": "Tablets",
+        "package": "3 strips / strip 30 Tablets",
+        "shelf_life": "Two years",
+        "images": ["12.png", "13.png"]
+    },
+    {
+        "id": 4,
+        "name": "Hanzo - Sachets",
+        "active": "BCAA: L-leucin, L-valine, L-isoleucin, Selenium, Zinc, Calcium, Multivitamin B",
+        "indication": "Malnutrition for Geriatric & Hepatic patients,Hospitalized Patients recovering from surgery,After Chemotherapy & Burns,Anorexia",
+        "dosage_form": "Sachets",
+        "package": "10 Sachets/ sachet 20 gm",
+        "shelf_life": "18 Months",
+        "images": ["17.png", "18.png"]
+    },
+    {
+        "id": 5,
+        "name": "LILIOX Sachets",
+        "active": "Lactoferrin 100 mg",
+        "indication": "Anti-Viral & Anti-Bacterial Activity,Immunity Modulator,Ant-Oxidant / Anti-Inflammatory",
+        "dosage_form": "Sachets",
+        "package": "10 Sachets/ sachet 3 gm",
+        "shelf_life": "18 Months",
+        "images": ["6.png"]
+    },
+    {
+        "id": 6,
+        "name": "Nithalo for Men / Women",
+        "active": "Multivitamin",
+        "indication": "Nithalo Contains a comprehensive Formula of 28 Vitamins and minerals, specially designed to support individual immunity & health in adults over 50 years old for both genders.",
+        "dosage_form": "Tablets",
+        "package": "3 strips / strip 30 Tablets",
+        "shelf_life": "Two years",
+        "images": ["9.png", "4.png"]
+    },
+    {
+        "id": 7,
+        "name": "YONATREVON Capsules",
+        "active": "Alpha-Lipoic acid 300mg + Vitamin B6 & B12 + Folic acid",
+        "indication": "Supports nervous system health.,Supports energy metabolism.",
+        "dosage_form": "Capsules",
+        "package": "3 strips / strip 10 Capsules",
+        "shelf_life": "Two years",
+        "images": ["1.png"]
+    }
+]

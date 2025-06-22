@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../assets/images/Logo.png";
+import Logo from "../assets/images/LogoGray.png";
 import { useTranslation } from "react-i18next";
 import "../assets/css/navbar.css";
 import HamburgerIcon from "../assets/images/HamburgerIcon.png";

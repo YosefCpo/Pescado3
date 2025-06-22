@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../assets/images/LogoTP.png";
+import Logo from "../assets/images/LogoGray.png";
 import { useTranslation } from "react-i18next";
 
 function Footer({ language }) {

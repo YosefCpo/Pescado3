@@ -40,7 +40,7 @@ function Form() {
                 id="subject"
             />
             <label className="block text-[18px] mt-[20px]" htmlFor="message">
-                {t("الرسالة")}
+                {t("رسالة")}
             </label>
             <textarea
                 className="mt-[5px] border-[1px] border-gray-400 bg-[#FAFAFA99] w-full max-w-[600px] text-[18px] p-[10px]"

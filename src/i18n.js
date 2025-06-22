@@ -71,7 +71,40 @@ i18n.use(initReactI18next).init({
                 الاسم: "Name",
                 "البريد الإلكتروني": "Email",
                 الموضوع: "About",
-                الرسالة: "Message",
+                رسالة: "Message",
+                الرسالة: "Mission",
+                الرؤية: "Vision",
+                القيم: "Values",
+                "نحن ملتزمون بأن نكون شركة رائدة ومبتكرة في الصناعات الدوائية.":
+                    "We Are Committed To Be A Pioneer And Innovative Company In Pharmaceutical Industries.",
+                "نحن نسعى باستمرار لتقديم منتجات قيّمة ومبتكرة تُرضي المرضى ومقدمي الرعاية الصحية، إذ نؤمن بأن تحسين جودة الحياة يتحقق من خلال بيئة عمل صحية وموثوقة وطموحة.":
+                    "We are constantly striving to offer valuable and innovative products which will be satisfying to both patients, and health care providers, as it has been our belief to improve quality of life, through healthy, trustworthy, and ambitious working environment.",
+                الابتكار: "Innovation",
+                الجودة: "Quality",
+                النزاهة: "Integrity",
+                التعاون: "Collaboration",
+                الاحترام: "Respect",
+                الالتزام: "Commitment",
+                الاستدامة: "Sustainability",
+                "تركيز على العملاء": "Customer Focus",
+                "نسعى باستمرار ونتبنى الأفكار الجديدة لتطوير حلول مبتكرة وحديثة في صناعة الأدوية.":
+                    "We continuously seek and embrace new ideas to develop cutting-edge solutions in the pharmaceutical industry.",
+                "نحن ملتزمون بتقديم منتجات عالية الجودة تُحسِّن صحة المرضى ورفاهيتهم، وتلبّي احتياجات مقدمي الرعاية الصحية.":
+                    "We are dedicated to providing high-quality products that improve the health and well-being of patients and meet the needs of healthcare providers.",
+                "نلتزم بأعلى المعايير والممارسات الأخلاقية، لضمان الموثوقية في جميع أعمالنا ومنتجاتنا.":
+                    "We uphold the highest ethical standards and practices, ensuring trustworthiness in all our actions and products.",
+                "نؤمن بقوة العمل الجماعي والشراكة، ونعمل معاً مع الزملاء والمرضى ومقدمي الرعاية الصحية لتحقيق أهداف مشتركة.":
+                    " We believe in the power of teamwork and partnership, working together with colleagues, patients, and healthcare providers to achieve common goals.",
+                "نُقدّر ونحترم وجهات النظر المتنوعة لموظفينا ومرضانا وشركائنا، ونعمل على تعزيز بيئة شاملة وداعمة.":
+                    "We value and respect the diverse perspectives of our employees, patients, and partners, fostering an inclusive and supportive environment.",
+                "نحن ملتزمون بمهمتنا ورؤيتنا، ونسعى باستمرار للتميز وإحداث تأثير إيجابي في صناعة الأدوية.":
+                    "We are committed to our mission and vision, consistently striving to excel and make a positive impact on the pharmaceutical industry.",
+                "نحن ملتزمون بممارسات مستدامة تعود بالفائدة على مجتمعنا والبيئة.":
+                    "We are dedicated to sustainable practices that benefit our community and the environment.",
+                "نحن نعطي الأولوية لاحتياجات ورضا عملائنا، ونقدم منتجات تعزز فعلاً من جودة حياتهم.":
+                    " We prioritize the needs and satisfaction of our customers, delivering products that truly enhance their quality of life.",
+                "نحن نصمم حلولنا الصحية استجابةً لأكثر الاحتياجات الطبية الملحة غير الملباة. تشمل مجالات العلاج التي نركز عليها أمراض الجهاز الهضمي، الطب القلبي الأيضي، مكافحة الشيخوخة وتجديد الخلايا، صحة العظام وإدارة الألم، أمراض الكبد، التغذية، والرفاهية.":
+                    "We tailor our healthcare solutions in response to the most demanding unmet medical needs. Our therapeutic areas of focus include Gastroenterology, cardiometabolic medicine, anti-aging and Cell Regeneration, Bone health and pain management, Hepatology, Nutrition and wellbeing.",
             },
         },
     },
