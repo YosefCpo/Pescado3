@@ -105,6 +105,7 @@ i18n.use(initReactI18next).init({
                     " We prioritize the needs and satisfaction of our customers, delivering products that truly enhance their quality of life.",
                 "نحن نصمم حلولنا الصحية استجابةً لأكثر الاحتياجات الطبية الملحة غير الملباة. تشمل مجالات العلاج التي نركز عليها أمراض الجهاز الهضمي، الطب القلبي الأيضي، مكافحة الشيخوخة وتجديد الخلايا، صحة العظام وإدارة الألم، أمراض الكبد، التغذية، والرفاهية.":
                     "We tailor our healthcare solutions in response to the most demanding unmet medical needs. Our therapeutic areas of focus include Gastroenterology, cardiometabolic medicine, anti-aging and Cell Regeneration, Bone health and pain management, Hepatology, Nutrition and wellbeing.",
+                "تواصل معنا": "Contact Us",
             },
         },
     },

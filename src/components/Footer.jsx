@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import Logo from "../assets/images/LogoGray.png";
+import Linkedin from "../assets/images/linkedin.png";
+import Facebook from "../assets/images/facebook.png";
 import { useTranslation } from "react-i18next";
 
 function Footer({ language }) {
@@ -24,6 +26,26 @@ function Footer({ language }) {
                             </li>
                             <li>
                                 <Link to="contact">{t("اتصل بنا")}</Link>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="mt-[50px]">
+                        <h3 className="font-[500] text-[22px]">{t("تواصل معنا")}</h3>
+                        <ul className="mt-[20px] text-[14px] flex flex-col gap-[10px]">
+                            <li>
+                                <a target="_blank" href="products">
+                                    Info@pescadopharma.com
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.linkedin.com/company/pescado-pharmaceuticals">
+                                    <img className="max-w-full w-[40px]" src={Linkedin} alt="Linkedin" />
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.facebook.com/PescadoPharmaceuticals">
+                                    <img className="max-w-full w-[40px]" src={Facebook} alt="Facebook" />
+                                </a>
                             </li>
                         </ul>
                     </div>
