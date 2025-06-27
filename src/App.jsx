@@ -29,7 +29,7 @@ function App() {
                 <Route path="/about" element={<AboutUs language={language} />} />
                 <Route path="/contact" element={<ContactPage language={language} />} />
             </Routes>
-            <FooterTop language={language} />
+            {/* <FooterTop language={language} /> */}
             <Footer language={language} />
         </div>
     );

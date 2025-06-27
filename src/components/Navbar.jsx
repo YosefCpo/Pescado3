@@ -21,44 +21,59 @@ function Navbar({ language, setLanguage }) {
     }
 
     return (
-        <div className="navbar sticky top-0 left-0 bg-white z-[10000]">
-            <div className="container flex items-center justify-between">
+        <div className="navbar fixed w-full top-0 left-0 z-[10000] bg-transparent">
+            <div className="container flex items-center justify-between border-[2px] border-[white] text-white rounded-full mt-[20px] py-[15px] !px-[50px]">
                 <Link to="/">
                     <img className="max-w-full w-[180px]" src={Logo} />
                 </Link>
                 <div className="open-menu" onClick={openMenu}>
                     <img src={HamburgerIcon} className="max-w-full w-[30px]" />
                 </div>
-                <ul dir="rtl" className="main-menu flex items-center gap-[30px] text-[18px]">
+                <ul className="main-menu flex items-center gap-[30px] text-[18px]">
                     <img src={CloseIcon} className="max-w-full w-[30px]" onClick={closeMenu} />
                     <li>
+                        <Link to="/" onClick={closeMenu}>
+                            Home
+                        </Link>
+                    </li>
+                    <li>
                         <Link to="/products" onClick={closeMenu}>
-                            {t("منتجاتنا")}
+                            Products
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/pipeline" onClick={closeMenu}>
+                            Pipeline
                         </Link>
                     </li>
                     <li>
                         <Link to="/about" onClick={closeMenu}>
-                            {t("عن بيسكادو")}
+                            About Us
                         </Link>
                     </li>
                     <li>
                         <Link to="/contact" onClick={closeMenu}>
-                            {t("اتصل بنا")}
+                            Pharmacovigilance
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/contact" onClick={closeMenu}>
+                            Contact Us
                         </Link>
                     </li>
                 </ul>
                 <div className="flex items-center">
                     <Link
-                        onClick={() => {
-                            if (language == "en") {
-                                setLanguage("ar");
-                            } else {
-                                setLanguage("en");
-                            }
-                        }}
-                        className="bg-black text-white font-[500] py-3 px-5 rounded-md text-[14px]"
+                        // onClick={() => {
+                        //     if (language == "en") {
+                        //         setLanguage("ar");
+                        //     } else {
+                        //         setLanguage("en");
+                        //     }
+                        // }}
+                        className="bg-white text-black font-bold py-[17px] px-[35px] rounded-full"
                     >
-                        {t("English")}
+                        Become Partner
                     </Link>
                 </div>
             </div>

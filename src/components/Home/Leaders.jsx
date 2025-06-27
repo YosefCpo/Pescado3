@@ -1,0 +1,83 @@
+import Image from "../../assets/images/Agy.png";
+import "../../assets/css/leaders.css";
+
+function Leaders() {
+    return (
+        <div className="leaders bg-[#00021d] text-white py-[60px] pt-[40px]">
+            <div className="container">
+                <div className="heading flex flex-col items-center gap-[50px]">
+                    <h2 className="text-[40px] max-w-[550px] text-center">
+                        Supplements Leaders
+                        <br /> In The Egyptian Market
+                    </h2>
+                    <p className="text-[18px] max-w-[700px] text-center">
+                        It has been through our unwavering commitment to our work that we have become one of the leading
+                        and most reliable suppliers of supplements in Egypt.
+                    </p>
+                </div>
+                <div className="flex items-center gap-[40px]">
+                    <div className="info flex-1">
+                        <div className="box">
+                            <h3>About Our Vision?</h3>
+                            <p>We are committed to be a pioneer & innovative company in pharmaceutical industries.</p>
+                        </div>
+                        <div className="sep"></div>
+                        <div className="box">
+                            <h3>About Our Mission?</h3>
+                            <p>
+                                We are constantly striving to offer valuable and innovative products which will be
+                                satisfying to both patients, and health care providers, as it has been our belief to
+                                improve quality of life, through healthy, trustworthy, and ambitious working
+                                environment.
+                            </p>
+                        </div>
+                        <div className="sep"></div>
+                        <div className="box">
+                            <h3>About Our Values?</h3>
+                            <ul className="text-[18px]">
+                                <li>
+                                    Innovation: We continuously seek and embrace new ideas to develop cutting-edge
+                                    solutions in the pharmaceutical industry
+                                </li>
+                                <li>
+                                    Quality: We are dedicated to providing high-quality products that improve the health
+                                    and well-being of patients and meet the needs of healthcare providers.
+                                </li>
+                                <li>
+                                    Integrity: We uphold the highest ethical standards and practices, ensuring
+                                    trustworthiness in all our actions and products
+                                </li>
+                                <li>
+                                    Collaboration: We believe in the power of teamwork and partnership, working together
+                                    with colleagues, patients, and healthcare providers to achieve common goals.
+                                </li>
+                                <li>
+                                    Respect: We value and respect the diverse perspectives of our employees, patients,
+                                    and partners, fostering an inclusive and supportive environment
+                                </li>
+                                <li>
+                                    Commitment: We are committed to our mission and vision, consistently striving to
+                                    excel and make a positive impact on the pharmaceutical industry.
+                                </li>
+                                <li>
+                                    Sustain ability: We are dedicated to sustainable practices that benefit our
+                                    community and the environment.
+                                </li>
+                                <li>
+                                    Customers Focus: We prioritize the needs and satisfaction of our customers,
+                                    delivering products that truly enhance their quality of life.
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="sep"></div>
+                    </div>
+                    <div className="image flex-1">
+                        <img src={Image} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Leaders;

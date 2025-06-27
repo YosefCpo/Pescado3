@@ -7,20 +7,24 @@ import WomenImage from "../assets/images/Women.jpg";
 import ManImage from "../assets/images/Man.jpg";
 import ChildrenImage from "../assets/images/Children.jpg";
 import AtheleteImage from "../assets/images/Athelete.jpg";
+import OurStatues from "../components/Home/OurStatues";
+import Leaders from "../components/Home/Leaders";
 
 function Home({ lang }) {
     return (
         <div>
             <Landing />
-            <FirstSection
+            {/* <FirstSection
                 header={`جاهز للحياة، جاهز ببيسكادو`}
                 description="نحن نصمم حلولنا الصحية استجابةً لأكثر الاحتياجات الطبية الملحة غير الملباة. تشمل مجالات العلاج التي نركز عليها أمراض الجهاز الهضمي، الطب القلبي الأيضي، مكافحة الشيخوخة وتجديد الخلايا، صحة العظام وإدارة الألم، أمراض الكبد، التغذية، والرفاهية."
                 buttonText="اكتشف منتجاتنا الان"
                 image={MedicineImage}
                 bgColor="#f5f5f5"
                 order="0"
-            />
-            <DarkSection />
+            /> */}
+            <OurStatues />
+            <Leaders />
+            {/* <DarkSection />
             <SecondSection lang={lang} />
             <FirstSection
                 header="هي بلا حدود"
@@ -53,7 +57,7 @@ function Home({ lang }) {
                 image={AtheleteImage}
                 bgColor="#f5f5f5"
                 order="1"
-            />
+            /> */}
         </div>
     );
 }
