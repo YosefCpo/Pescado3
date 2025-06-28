@@ -10,6 +10,8 @@ import FooterTop from "./components/FooterTop";
 import AboutUs from "./pages/AboutUs";
 import ContactPage from "./pages/ContactPage";
 import ProductPage from "./components/ProductPage";
+import TheFooter from "./components/TheFooter";
+import TheFooterBottom from "./components/TheFooterBottom";
 
 function App() {
     const { i18n } = useTranslation();
@@ -30,7 +32,8 @@ function App() {
                 <Route path="/contact" element={<ContactPage language={language} />} />
             </Routes>
             {/* <FooterTop language={language} /> */}
-            <Footer language={language} />
+            <TheFooter />
+            <TheFooterBottom />
         </div>
     );
 }

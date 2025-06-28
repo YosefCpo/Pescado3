@@ -26,6 +26,7 @@ function Landing() {
                     </div>
                 </div>
                 <div className="bg-[#00021D]">
+                    <div className="shadow"></div>
                     <img className="max-w-full" src={LandingImage} />
                 </div>
             </div>

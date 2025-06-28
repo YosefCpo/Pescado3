@@ -1,0 +1,17 @@
+footer .boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+footer .boxes .box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer .boxes .box a img {
+    max-width: 100%;
+    width: 50px;
+    height: 50px;
+}

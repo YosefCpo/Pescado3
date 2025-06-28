@@ -9,6 +9,7 @@ import ChildrenImage from "../assets/images/Children.jpg";
 import AtheleteImage from "../assets/images/Athelete.jpg";
 import OurStatues from "../components/Home/OurStatues";
 import Leaders from "../components/Home/Leaders";
+import BecomePartner from "../components/Home/BecomePartner";
 
 function Home({ lang }) {
     return (
@@ -24,6 +25,7 @@ function Home({ lang }) {
             /> */}
             <OurStatues />
             <Leaders />
+            <BecomePartner />
             {/* <DarkSection />
             <SecondSection lang={lang} />
             <FirstSection

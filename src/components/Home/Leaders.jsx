@@ -1,4 +1,5 @@
 import Image from "../../assets/images/Agy.png";
+import Arrow from "../../assets/images/arrow-up.png";
 import "../../assets/css/leaders.css";
 
 function Leaders() {
@@ -15,15 +16,21 @@ function Leaders() {
                         and most reliable suppliers of supplements in Egypt.
                     </p>
                 </div>
-                <div className="flex items-center gap-[40px]">
-                    <div className="info flex-1">
+                <div className="flex items-center gap-[40px] pt-[60px]">
+                    <div className="info">
                         <div className="box">
-                            <h3>About Our Vision?</h3>
+                            <h3>
+                                <span>About Our Vision?</span>
+                                <img src={Arrow} />
+                            </h3>
                             <p>We are committed to be a pioneer & innovative company in pharmaceutical industries.</p>
                         </div>
                         <div className="sep"></div>
                         <div className="box">
-                            <h3>About Our Mission?</h3>
+                            <h3>
+                                <span>About Our Mission?</span>
+                                <img src={Arrow} />
+                            </h3>
                             <p>
                                 We are constantly striving to offer valuable and innovative products which will be
                                 satisfying to both patients, and health care providers, as it has been our belief to
@@ -33,7 +40,10 @@ function Leaders() {
                         </div>
                         <div className="sep"></div>
                         <div className="box">
-                            <h3>About Our Values?</h3>
+                            <h3>
+                                <span>About Our Values?</span>
+                                <img src={Arrow} />
+                            </h3>
                             <ul className="text-[18px]">
                                 <li>
                                     Innovation: We continuously seek and embrace new ideas to develop cutting-edge
@@ -71,7 +81,7 @@ function Leaders() {
                         </div>
                         <div className="sep"></div>
                     </div>
-                    <div className="image flex-1">
+                    <div className="image">
                         <img src={Image} />
                     </div>
                 </div>

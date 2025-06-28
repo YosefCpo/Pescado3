@@ -1,7 +1,16 @@
+.leaders {
+    overflow: hidden;
+}
+
 .leaders .info {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    flex: 0.55;
+}
+
+.leaders .image {
+    flex: 0.45;
 }
 
 .leaders .info .box {
@@ -12,6 +21,17 @@
 
 .leaders .info .box h3 {
     font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.leaders .info .box h3 img {
+    max-width: 100%;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
 }
 
 .leaders .info .box p {
