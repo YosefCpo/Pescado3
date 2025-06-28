@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
-import ProductsPage from "./pages/ProductsPage";
 import "./i18n";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -12,6 +11,7 @@ import ContactPage from "./pages/ContactPage";
 import ProductPage from "./components/ProductPage";
 import TheFooter from "./components/TheFooter";
 import TheFooterBottom from "./components/TheFooterBottom";
+import TheProductsPage from "./pages/TheProductsPage";
 
 function App() {
     const { i18n } = useTranslation();
@@ -26,7 +26,7 @@ function App() {
             <Navbar language={language} setLanguage={setLanguage} />
             <Routes>
                 <Route path="/" element={<Home lang={language} />} />
-                <Route path="/products" element={<ProductsPage />} />
+                <Route path="/products" element={<TheProductsPage />} />
                 <Route path="/products/:id" element={<ProductPage />} />
                 <Route path="/about" element={<AboutUs language={language} />} />
                 <Route path="/contact" element={<ContactPage language={language} />} />
