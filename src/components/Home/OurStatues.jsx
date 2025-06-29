@@ -16,7 +16,7 @@ function OurStatues() {
                     <div className="sep h-[150px] w-[2px] bg-white rounded-full"></div>
                     <div className="flex flex-col items-center">
                         <h3 className="text-[60px] font-[500] text-center">+7k</h3>
-                        <p className="text-[17px]">Recived Orders This Year</p>
+                        <p className="text-[17px]">Received Orders This Year</p>
                     </div>
                 </div>
             </div>

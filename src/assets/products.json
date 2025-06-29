@@ -25,7 +25,7 @@
         "active": "Collagen + Chondroitin + MSM",
         "indication": "Supports Healthy Joints.",
         "dosage_form": "Tablets",
-        "package": "3 strips / strip 30 Tablets",
+        "package": "3 strips / strip 10 Tablets",
         "shelf_life": "Two years",
         "images": ["12.png", "13.png"]
     },
@@ -46,7 +46,7 @@
         "indication": "Anti-Viral & Anti-Bacterial Activity,Immunity Modulator,Ant-Oxidant / Anti-Inflammatory",
         "dosage_form": "Sachets",
         "package": "10 Sachets/ sachet 3 gm",
-        "shelf_life": "18 Months",
+        "shelf_life": "Two years",
         "images": ["6.png"]
     },
     {
@@ -55,7 +55,7 @@
         "active": "Multivitamin",
         "indication": "Nithalo Contains a comprehensive Formula of 28 Vitamins and minerals, specially designed to support individual immunity & health in adults over 50 years old for both genders.",
         "dosage_form": "Tablets",
-        "package": "3 strips / strip 30 Tablets",
+        "package": "3 strips / strip 10 Tablets",
         "shelf_life": "Two years",
         "images": ["9.png", "4.png"]
     },

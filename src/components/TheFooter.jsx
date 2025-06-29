@@ -28,7 +28,7 @@ function TheFooter() {
                         <h3>Locations:</h3>
                         <p>Cairo Office Address: 3 Hassan El Mammon Street, Mdinet Nasr, Cairo, Egypt.</p>
                         <p>Mansoura Office Address: Aly Mobark Street, Mansoura, Dakahlia.</p>
-                        <p>Telephone Number: 050 - 2302611.</p>
+                        <p>Telephone Number: +20 120 277 4050</p>
                     </div>
                     <div className="box text-[19px]">
                         <h3>Contact Us:</h3>

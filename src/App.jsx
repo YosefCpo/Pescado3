@@ -12,6 +12,7 @@ import ProductPage from "./components/ProductPage";
 import TheFooter from "./components/TheFooter";
 import TheFooterBottom from "./components/TheFooterBottom";
 import TheProductsPage from "./pages/TheProductsPage";
+import PipelinePage from "./pages/PipelinePage";
 
 function App() {
     const { i18n } = useTranslation();
@@ -28,6 +29,7 @@ function App() {
                 <Route path="/" element={<Home lang={language} />} />
                 <Route path="/products" element={<TheProductsPage />} />
                 <Route path="/products/:id" element={<ProductPage />} />
+                <Route path="/pipeline" element={<PipelinePage />} />
                 <Route path="/about" element={<AboutUs language={language} />} />
                 <Route path="/contact" element={<ContactPage language={language} />} />
             </Routes>

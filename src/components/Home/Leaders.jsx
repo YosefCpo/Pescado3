@@ -46,35 +46,36 @@ function Leaders() {
                             </h3>
                             <ul className="text-[18px]">
                                 <li>
-                                    Innovation: We continuously seek and embrace new ideas to develop cutting-edge
-                                    solutions in the pharmaceutical industry
+                                    <b>Innovation:</b> We continuously seek and embrace new ideas to develop
+                                    cutting-edge solutions in the pharmaceutical industry
                                 </li>
                                 <li>
-                                    Quality: We are dedicated to providing high-quality products that improve the health
-                                    and well-being of patients and meet the needs of healthcare providers.
+                                    <b>Quality:</b> We are dedicated to providing high-quality products that improve the
+                                    health and well-being of patients and meet the needs of healthcare providers.
                                 </li>
                                 <li>
-                                    Integrity: We uphold the highest ethical standards and practices, ensuring
+                                    <b>Integrity:</b> We uphold the highest ethical standards and practices, ensuring
                                     trustworthiness in all our actions and products
                                 </li>
                                 <li>
-                                    Collaboration: We believe in the power of teamwork and partnership, working together
-                                    with colleagues, patients, and healthcare providers to achieve common goals.
+                                    <b>Collaboration:</b> We believe in the power of teamwork and partnership, working
+                                    together with colleagues, patients, and healthcare providers to achieve common
+                                    goals.
                                 </li>
                                 <li>
-                                    Respect: We value and respect the diverse perspectives of our employees, patients,
-                                    and partners, fostering an inclusive and supportive environment
+                                    <b>Respect:</b> We value and respect the diverse perspectives of our employees,
+                                    patients, and partners, fostering an inclusive and supportive environment
                                 </li>
                                 <li>
-                                    Commitment: We are committed to our mission and vision, consistently striving to
-                                    excel and make a positive impact on the pharmaceutical industry.
+                                    <b>Commitment:</b> We are committed to our mission and vision, consistently striving
+                                    to excel and make a positive impact on the pharmaceutical industry.
                                 </li>
                                 <li>
-                                    Sustain ability: We are dedicated to sustainable practices that benefit our
+                                    <b>Sustain ability:</b> We are dedicated to sustainable practices that benefit our
                                     community and the environment.
                                 </li>
                                 <li>
-                                    Customers Focus: We prioritize the needs and satisfaction of our customers,
+                                    <b>Customers Focus:</b> We prioritize the needs and satisfaction of our customers,
                                     delivering products that truly enhance their quality of life.
                                 </li>
                             </ul>

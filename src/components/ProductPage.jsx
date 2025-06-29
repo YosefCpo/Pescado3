@@ -17,10 +17,10 @@ function ProductPage() {
 
     return (
         <div>
-            <div className="header py-[100px] bg-[#f8f6f1] text-center font-[700]">
+            <div className="header bg-[#00021d] py-[70px] text-center font-[700]">
                 <h2 className="text-[40px]">{product?.name}</h2>
             </div>
-            <div className="py-[60px]" dir="ltr">
+            <div className="py-[60px] bg-[#00021d] text-white" dir="ltr">
                 <div className="container flex items-center justify-center gap-[60px] flex-wrap">
                     <img src={`/Images/${product?.images[0]}`} alt={product?.name} />
                     <div className="info flex flex-col gap-[10px] text-[20px]">
