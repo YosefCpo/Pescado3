@@ -22,7 +22,7 @@ function Navbar({ language, setLanguage }) {
 
     return (
         <div id="navbar" className="navbar fixed w-full top-0 left-0 z-[10000] bg-transparent">
-            <div className="container bg-[#00021d] flex items-center justify-between border-[2px] border-[white] text-white rounded-full mt-[20px] py-[15px] !px-[50px]">
+            <div className="container bg-[#00021d] flex items-center max-sm:justify-center max-sm:flex-wrap justify-between border-[2px] border-[white] text-white rounded-full mt-[20px] py-[15px] !px-[50px]">
                 <Link to="/">
                     <img className="max-w-full w-[180px]" src={Logo} />
                 </Link>

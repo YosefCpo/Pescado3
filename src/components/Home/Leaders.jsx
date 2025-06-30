@@ -71,7 +71,7 @@ function Leaders() {
                                     to excel and make a positive impact on the pharmaceutical industry.
                                 </li>
                                 <li>
-                                    <b>Sustain ability:</b> We are dedicated to sustainable practices that benefit our
+                                    <b>Sustainability:</b> We are dedicated to sustainable practices that benefit our
                                     community and the environment.
                                 </li>
                                 <li>
