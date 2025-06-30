@@ -10,7 +10,7 @@ function TheProductsPage() {
                 <h2 className="text-center text-[45px]">Our Products</h2>
                 <div className="products pt-[50px] flex justify-between items-stretch flex-wrap gap-[20px]">
                     {products.map((product) => {
-                        return <AProduct product={product} />;
+                        return <AProduct key={product.id} product={product} />;
                     })}
                 </div>
                 <BecomePartner />

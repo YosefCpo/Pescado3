@@ -7,7 +7,7 @@ function TheFooter() {
     return (
         <footer className="bg-[#1a1c37] text-white py-[50px]">
             <div className="container">
-                <div className="boxes">
+                <div className="boxes max-lg:flex max-lg:flex-col max-lg:!gap-[70px]">
                     <div className="box">
                         <h2 className="text-[50px]">GET IN TOUCH!</h2>
                         <p className="text-[18px]">Website Map:</p>

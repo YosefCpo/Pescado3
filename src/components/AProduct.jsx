@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 
 function AProduct({ product }) {
-    console.log(product.images[0]);
-
     return (
         <Link
             to={`/products/${product.id}`}

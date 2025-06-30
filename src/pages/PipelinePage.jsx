@@ -11,10 +11,10 @@ function PipelinePage() {
     return (
         <div className="pipeline bg-[#00021d] pt-[200px] text-white">
             <div className="container">
-                <div className="first flex items-center justify-between gap-[50px]">
+                <div className="first flex items-center justify-between gap-[50px] max-lg:flex-col max-lg:items-center max-lg:text-center">
                     <div className="info flex-1 flex flex-col gap-[80px]">
                         <h2 className="text-[70px] tracking-[6px] leading-[1.4]">Our Pipeline Products</h2>
-                        <div className="box max-w-[600px]">
+                        <div className="box max-w-[600px] max-lg:max-w-full">
                             <p className="text-[18px]">
                                 By focusing on our customers and by establishing a relationship of trust. we are able to
                                 deliver vital treatments to patients.

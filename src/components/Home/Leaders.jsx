@@ -17,7 +17,7 @@ function Leaders() {
                     </p>
                 </div>
                 <div className="flex items-center gap-[40px] pt-[60px]">
-                    <div className="info">
+                    <div className="info max-xl:!flex-1">
                         <div className="box">
                             <h3>
                                 <span>About Our Vision?</span>
@@ -82,7 +82,7 @@ function Leaders() {
                         </div>
                         <div className="sep"></div>
                     </div>
-                    <div className="image">
+                    <div className="image max-xl:hidden">
                         <img src={Image} />
                     </div>
                 </div>

@@ -20,7 +20,7 @@
         padding-left: 100px;
         padding-right: 100px;
         height: 100vh;
-        gap: 100px;
+        gap: 70px;
         flex-direction: column;
         background-color: white;
         transition: 0.3s;

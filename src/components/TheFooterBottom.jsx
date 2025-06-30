@@ -5,7 +5,7 @@ function TheFooterBottom() {
     return (
         <div className="bg-[#1a1c37] text-white">
             <div className="line w-full h-[2px] bg-white"></div>
-            <div className="container py-[30px] flex items-center justify-between gap-[30px]">
+            <div className="container py-[30px] flex items-center justify-between gap-[30px] max-md:flex-col">
                 <div className="info flex flex-col gap-[25px]">
                     <p>Egypt &copy; 2015-2025 Pescado Pharmaceuticals. All rights reserved.</p>
                     <p className="flex items-center">

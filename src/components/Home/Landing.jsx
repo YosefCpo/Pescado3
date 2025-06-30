@@ -3,9 +3,9 @@ import LandingImage from "../../assets/images/pngtree.png";
 
 function Landing() {
     return (
-        <div className="bg-[#00021d]">
-            <div className="container flex items-center pt-[160px] pb-[30px] gap-[20px]">
-                <div className="info text-white flex flex-col gap-[50px]">
+        <div className="bg-[#00021d] max-xl:pt-[60px]">
+            <div className="container flex items-center pt-[160px] pb-[30px] gap-[20px] max-xl:flex-col max-xl:items-center">
+                <div className="info text-white flex flex-col gap-[50px] max-xl:items-center max-xl:text-center">
                     <h2 className="text-[50px] max-w-[500px] leading-[1.2]">
                         MAKING ACCESS TO OUR USEFUL SUPPLEMENTS EASY
                     </h2>
