@@ -12,15 +12,19 @@
 }
 
 @media (max-width: 1200px) {
+    .navbar .container {
+        justify-content: space-between;
+    }
+
     .navbar .container ul {
         position: absolute;
         top: 0;
         left: -100%;
         padding-top: 150px;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 90px;
+        padding-right: 90px;
         height: 100vh;
-        gap: 70px;
+        gap: 50px;
         flex-direction: column;
         background-color: white;
         transition: 0.3s;
@@ -44,5 +48,21 @@
 
     .navbar .container .main-menu li a {
         color: black !important;
+    }
+
+    .navbar .become-button {
+        position: fixed;
+        bottom: 50px;
+        left: -100%;
+        transition: 0.3s;
+    }
+
+    .navbar .become-button.show {
+        left: 70px;
+    }
+
+    .navbar .become-button a {
+        background-color: #00021d !important;
+        color: white !important;
     }
 }
