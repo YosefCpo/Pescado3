@@ -1,8 +1,34 @@
 import Image from "../../assets/images/Agy.png";
 import Arrow from "../../assets/images/arrow-up.png";
 import "../../assets/css/leaders.css";
+import { useEffect } from "react";
 
 function Leaders() {
+    useEffect(() => {
+        const buttonOne = document.querySelector("#arrow-1");
+        const buttonTwo = document.querySelector("#arrow-2");
+        const buttonThree = document.querySelector("#arrow-3");
+
+        const textOne = document.querySelector("#text-1");
+        const textTwo = document.querySelector("#text-2");
+        const textThree = document.querySelector("#text-3");
+
+        buttonOne.addEventListener("click", (e) => {
+            textOne.classList.toggle("show");
+            e.target.classList.toggle("flip");
+        });
+
+        buttonTwo.addEventListener("click", (e) => {
+            textTwo.classList.toggle("show");
+            e.target.classList.toggle("flip");
+        });
+
+        buttonThree.addEventListener("click", (e) => {
+            textThree.classList.toggle("show");
+            e.target.classList.toggle("flip");
+        });
+    });
+
     return (
         <div className="leaders bg-[#00021d] text-white py-[60px] pt-[40px]">
             <div className="container">
@@ -21,17 +47,19 @@ function Leaders() {
                         <div className="box">
                             <h3>
                                 <span>About Our Vision?</span>
-                                <img src={Arrow} />
+                                <img id="arrow-1" src={Arrow} />
                             </h3>
-                            <p>We are committed to be a pioneer & innovative company in pharmaceutical industries.</p>
+                            <p id="text-1">
+                                We are committed to be a pioneer & innovative company in pharmaceutical industries.
+                            </p>
                         </div>
                         <div className="sep"></div>
                         <div className="box">
                             <h3>
                                 <span>About Our Mission?</span>
-                                <img src={Arrow} />
+                                <img id="arrow-2" src={Arrow} />
                             </h3>
-                            <p>
+                            <p id="text-2">
                                 We are constantly striving to offer valuable and innovative products which will be
                                 satisfying to both patients, and health care providers, as it has been our belief to
                                 improve quality of life, through healthy, trustworthy, and ambitious working
@@ -42,9 +70,9 @@ function Leaders() {
                         <div className="box">
                             <h3>
                                 <span>About Our Values?</span>
-                                <img src={Arrow} />
+                                <img id="arrow-3" src={Arrow} />
                             </h3>
-                            <ul className="text-[18px]">
+                            <ul id="text-3" className="text-[18px]">
                                 <li>
                                     <b>Innovation:</b> We continuously seek and embrace new ideas to develop
                                     cutting-edge solutions in the pharmaceutical industry
