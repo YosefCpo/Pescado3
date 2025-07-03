@@ -1,3 +1,8 @@
+.navbar {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .navbar .container {
     box-shadow: #00021d 0 0 20px 11px;
 }
