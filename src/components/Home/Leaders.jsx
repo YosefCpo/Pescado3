@@ -1,33 +1,28 @@
 import Image from "../../assets/images/Agy.png";
 import Arrow from "../../assets/images/arrow-up.png";
 import "../../assets/css/leaders.css";
-import { useEffect } from "react";
 
 function Leaders() {
-    useEffect(() => {
-        const buttonOne = document.querySelector("#arrow-1");
-        const buttonTwo = document.querySelector("#arrow-2");
-        const buttonThree = document.querySelector("#arrow-3");
-
+    const arrowOneClicked = (e) => {
         const textOne = document.querySelector("#text-1");
-        const textTwo = document.querySelector("#text-2");
-        const textThree = document.querySelector("#text-3");
 
-        buttonOne.addEventListener("click", (e) => {
-            textOne.classList.toggle("show");
-            e.target.classList.toggle("flip");
-        });
+        textOne.classList.toggle("show");
+        e.target.classList.toggle("flip");
+    };
 
-        buttonTwo.addEventListener("click", (e) => {
-            textTwo.classList.toggle("show");
-            e.target.classList.toggle("flip");
-        });
+    const arrowTwoClicked = (e) => {
+        const textOne = document.querySelector("#text-2");
 
-        buttonThree.addEventListener("click", (e) => {
-            textThree.classList.toggle("show");
-            e.target.classList.toggle("flip");
-        });
-    });
+        textOne.classList.toggle("show");
+        e.target.classList.toggle("flip");
+    };
+
+    const arrowThreeClicked = (e) => {
+        const textOne = document.querySelector("#text-3");
+
+        textOne.classList.toggle("show");
+        e.target.classList.toggle("flip");
+    };
 
     return (
         <div className="leaders bg-[#00021d] text-white py-[60px] pt-[40px]">
@@ -47,7 +42,7 @@ function Leaders() {
                         <div className="box">
                             <h3>
                                 <span>About Our Vision?</span>
-                                <img id="arrow-1" src={Arrow} />
+                                <img id="arrow-1" src={Arrow} onClick={arrowOneClicked} />
                             </h3>
                             <p id="text-1">
                                 We are committed to be a pioneer & innovative company in pharmaceutical industries.
@@ -57,7 +52,7 @@ function Leaders() {
                         <div className="box">
                             <h3>
                                 <span>About Our Mission?</span>
-                                <img id="arrow-2" src={Arrow} />
+                                <img id="arrow-2" src={Arrow} onClick={arrowTwoClicked} />
                             </h3>
                             <p id="text-2">
                                 We are constantly striving to offer valuable and innovative products which will be
@@ -70,7 +65,7 @@ function Leaders() {
                         <div className="box">
                             <h3>
                                 <span>About Our Values?</span>
-                                <img id="arrow-3" src={Arrow} />
+                                <img id="arrow-3" src={Arrow} onClick={arrowThreeClicked} />
                             </h3>
                             <ul id="text-3" className="text-[18px]">
                                 <li>
