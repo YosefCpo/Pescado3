@@ -1,6 +1,7 @@
 import AboutFirstSection from "../components/AboutUs/AboutFirstSection";
 import AboutSecondSection from "../components/AboutUs/AboutSecondSection";
 import AboutThirdSection from "../components/AboutUs/AboutThirdSection";
+import Leaders from "../components/Home/Leaders";
 
 function AboutUs({ language }) {
     return (
@@ -8,7 +9,8 @@ function AboutUs({ language }) {
             <div className="container">
                 <AboutFirstSection language={language} />
                 <AboutSecondSection language={language} />
-                <AboutThirdSection language={language} />
+                <Leaders />
+                {/* <AboutThirdSection language={language} /> */}
             </div>
         </div>
     );
