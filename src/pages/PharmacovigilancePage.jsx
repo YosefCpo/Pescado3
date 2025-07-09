@@ -1,10 +1,11 @@
 import Image from "../assets/images/Pills-TP.png";
+import Form from "../components/Pharma/Form";
 
 function PharmacovigilancePage() {
     return (
         <div className="bg-[#00021d] text-white pt-[200px] pb-[100px]">
             <div className="container">
-                <div className="flex items-center gap-[20px]">
+                <div className="flex items-center gap-[20px] max-md:flex-col max-md:items-center">
                     <div className="flex-1">
                         <h2 className="text-[45px] font-[700]">Pharmacovigilance</h2>
                         <p className="text-[18px] max-w-[700px]">
@@ -40,7 +41,8 @@ function PharmacovigilancePage() {
                         <li>Continuously monitoring drug safety profiles</li>
                     </ol>
                 </div>
-                <div className="mt-[90px] text-center text-[18px] font-[500]">Email: PV@pescadopharma.com</div>
+                <Form />
+                <div className="text-center text-[18px] font-[500]">Email: PV@pescadopharma.com</div>
             </div>
         </div>
     );

@@ -10,6 +10,8 @@ import AtheleteImage from "../assets/images/Athelete.jpg";
 import OurStatues from "../components/Home/OurStatues";
 import Leaders from "../components/Home/Leaders";
 import BecomePartner from "../components/Home/BecomePartner";
+import LeadersAgy from "../components/Home/LeadersAgy";
+import LeadersAgy2 from "../components/Home/LeadersAgy2";
 
 function Home({ lang }) {
     return (
@@ -24,6 +26,8 @@ function Home({ lang }) {
                 order="0"
             /> */}
             <OurStatues />
+            <LeadersAgy />
+            <LeadersAgy2 />
             <Leaders />
             <BecomePartner />
             {/* <DarkSection />
