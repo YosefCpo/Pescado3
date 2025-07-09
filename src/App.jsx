@@ -13,6 +13,7 @@ import TheFooter from "./components/TheFooter";
 import TheFooterBottom from "./components/TheFooterBottom";
 import TheProductsPage from "./pages/TheProductsPage";
 import PipelinePage from "./pages/PipelinePage";
+import PharmacovigilancePage from "./pages/pharmacovigilancePage";
 
 function App() {
     const { i18n } = useTranslation();
@@ -32,6 +33,7 @@ function App() {
                 <Route path="/pipeline" element={<PipelinePage />} />
                 <Route path="/about" element={<AboutUs language={language} />} />
                 <Route path="/contact" element={<ContactPage language={language} />} />
+                <Route path="/pharmacovigilance" element={<PharmacovigilancePage />} />
             </Routes>
             {/* <FooterTop language={language} /> */}
             <TheFooter />

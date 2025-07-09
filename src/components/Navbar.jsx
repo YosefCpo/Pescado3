@@ -56,13 +56,8 @@ function Navbar({ language, setLanguage }) {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/contact" onClick={closeMenu}>
+                        <Link to="/pharmacovigilance" onClick={closeMenu}>
                             Pharmacovigilance
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/contact" onClick={closeMenu}>
-                            Contact Us
                         </Link>
                     </li>
                 </ul>
@@ -75,9 +70,10 @@ function Navbar({ language, setLanguage }) {
                         //         setLanguage("en");
                         //     }
                         // }}
+                        to="/contact"
                         className="bg-white text-black font-bold py-[17px] px-[35px] rounded-full"
                     >
-                        Become Partner
+                        Contact Us
                     </Link>
                 </div>
             </div>
