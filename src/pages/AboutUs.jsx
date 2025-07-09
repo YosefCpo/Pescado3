@@ -4,7 +4,7 @@ import AboutThirdSection from "../components/AboutUs/AboutThirdSection";
 
 function AboutUs({ language }) {
     return (
-        <div>
+        <div className="bg-[#00021d] pt-[150px] text-white">
             <div className="container">
                 <AboutFirstSection language={language} />
                 <AboutSecondSection language={language} />

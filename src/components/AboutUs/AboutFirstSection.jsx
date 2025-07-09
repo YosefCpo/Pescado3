@@ -5,7 +5,7 @@ function AboutFirstSection({ language }) {
     const { t } = useTranslation();
 
     return (
-        <div className="max-w-[700px] mt-[100px] mx-auto pt-[150px]">
+        <div className="max-w-[700px] mt-[100px] mx-auto bg-[#00021d]">
             <h2 className="font-bold text-[46px]">Discover your Potential!</h2>
             <p className="text-[18px] mt-[20px]">
                 Who isn't always striving to live a healthier life but is too lazy to start or simply doesn't have the
