@@ -6,13 +6,13 @@ function AboutSecondSection({ language }) {
 
     return (
         <div className="mt-[150px] mb-[100px]">
-            <div dir="rtl" className="container flex gap-[40px]">
-                <div dir={language == "ar" ? "rtl" : "ltr"} className="info">
-                    <h2 className="text-[35px] font-bold">{t("المنتج المثالي لحياة مثالية!")}</h2>
+            <div className="container flex gap-[40px]">
+                <div className="info">
+                    <h2 className="text-[35px] font-bold">The perfect product for a perfect life!</h2>
                     <p className="text-[20px] mt-[30px]">
-                        {t(
-                            "عظام أقوي، بشرة ناعمة، شعر صحي أكتر، تغذية متوازنة، نمو سليم للطفل، ومناعة يعتمد عليها، وأكتر بكتير ده اللي ممكن بسهولة توصله لما تخلي مكملاتنا الغذائية جزء من حياتك اليومية"
-                        )}
+                        Stronger bones, smooth skin, healthier hair, balanced nutrition, healthy baby growth, reliable
+                        immunity, and much more that you can easily reach when you make our supplements a part of your
+                        daily life.
                     </p>
                 </div>
                 <img src={AboutImage} alt="about" />
