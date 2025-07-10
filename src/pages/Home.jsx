@@ -29,7 +29,7 @@ function Home({ lang }) {
             {/* <LeadersAgy /> */}
             <LeadersAgy2 />
             <Leaders />
-            <BecomePartner />
+            {/* <BecomePartner /> */}
             {/* <DarkSection />
             <SecondSection lang={lang} />
             <FirstSection

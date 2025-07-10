@@ -43,7 +43,7 @@ function TheProductsPage() {
                         return <AProduct key={product.id} product={product} />;
                     })}
                 </div>
-                <BecomePartner />
+                {/* <BecomePartner /> */}
             </div>
         </div>
     );

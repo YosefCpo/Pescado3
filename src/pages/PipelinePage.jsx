@@ -29,7 +29,7 @@ function PipelinePage() {
                     </div>
                 </div>
                 <PipelineSection />
-                <BecomePartner />
+                {/* <BecomePartner /> */}
             </div>
         </div>
     );

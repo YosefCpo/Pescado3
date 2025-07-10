@@ -19,10 +19,16 @@ function Landing() {
                         healthier world.
                     </p>
                     <div className="flex items-center gap-[20px]">
-                        <Link className="bg-white border-[1px] border-white text-black py-[15px] px-[50px] txet-[18px] rounded-full">
+                        <Link
+                            to="/about"
+                            className="bg-white border-[1px] border-white text-black py-[15px] px-[50px] txet-[18px] rounded-full"
+                        >
                             About Us
                         </Link>
-                        <Link className="bg-transparent border-[1px] border-white text-white py-[15px] px-[50px] txet-[18px] rounded-full">
+                        <Link
+                            to="/products"
+                            className="bg-transparent border-[1px] border-white text-white py-[15px] px-[50px] txet-[18px] rounded-full"
+                        >
                             Our Products
                         </Link>
                     </div>
