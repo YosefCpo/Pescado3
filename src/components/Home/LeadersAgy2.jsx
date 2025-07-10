@@ -1,6 +1,6 @@
 function LeadersAgy2() {
     return (
-        <div className="leaders bg-[#00021d] text-white py-[60px] pt-[40px]">
+        <div className="leaders bg-[#00021d] text-white py-[60px] pt-[40px] pb-[40px]">
             <div className="container">
                 <div className="heading flex flex-col items-center gap-[50px]">
                     <h2 className="text-[40px] max-w-[550px] text-center">Two Paths, One Goal: Optimal Wellness</h2>

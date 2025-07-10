@@ -7,8 +7,10 @@ function PharmacovigilancePage() {
             <div className="container">
                 <div className="flex items-center gap-[20px] max-md:flex-col max-md:items-center">
                     <div className="flex-1">
-                        <h2 className="text-[45px] font-[700]">Pharmacovigilance</h2>
-                        <p className="text-[18px] max-w-[700px]">
+                        <h2 className="text-[45px] max-md:text-[25px] font-[700] max-md:text-center">
+                            Pharmacovigilance
+                        </h2>
+                        <p className="text-[18px] max-w-[700px] max-md:text-center">
                             Pharmacovigilance is the science and activities related to the detection, assessment,
                             understanding, and prevention of adverse effects or any other drug-related problems. This
                             includes:
@@ -41,8 +43,8 @@ function PharmacovigilancePage() {
                         <li>Continuously monitoring drug safety profiles</li>
                     </ol>
                 </div>
-                <Form />
-                <div className="text-center text-[18px] font-[500]">Email: PV@pescadopharma.com</div>
+                {/* <Form /> */}
+                <div className="text-center text-[18px] font-[500] mt-[120px]">Email: PV@pescadopharma.com</div>
             </div>
         </div>
     );

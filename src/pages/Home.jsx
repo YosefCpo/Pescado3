@@ -26,7 +26,7 @@ function Home({ lang }) {
                 order="0"
             /> */}
             <OurStatues />
-            <LeadersAgy />
+            {/* <LeadersAgy /> */}
             <LeadersAgy2 />
             <Leaders />
             <BecomePartner />

@@ -25,9 +25,9 @@ function Leaders() {
     };
 
     return (
-        <div className="leaders bg-[#00021d] text-white py-[60px] pt-[40px]">
+        <div className="leaders bg-[#00021d] text-white py-[60px] pt-0">
             <div className="container">
-                <div className="heading flex flex-col items-center gap-[50px]">
+                {/* <div className="heading flex flex-col items-center gap-[50px]">
                     <h2 className="text-[40px] max-w-[550px] text-center">
                         Supplements Leaders
                         <br /> In The Egyptian Market
@@ -36,8 +36,8 @@ function Leaders() {
                         It has been through our unwavering commitment to our work that we have become one of the leading
                         and most reliable suppliers of supplements in Egypt.
                     </p>
-                </div>
-                <div className="flex items-center gap-[40px] pt-[60px]">
+                </div> */}
+                <div className="flex items-center gap-[40px]">
                     <div className="info max-xl:!flex-1">
                         <div className="box">
                             <h3>
