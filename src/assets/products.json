@@ -51,9 +51,9 @@
     },
     {
         "id": 6,
-        "name": "Nithalo for Men / Women",
+        "name": "Nithalo for Men",
         "active": "Multivitamin",
-        "indication": "Nithalo Contains a comprehensive Formula of 28 Vitamins and minerals, specially designed to support individual immunity & health in adults over 50 years old for both genders.",
+        "indication": "Nithalo Contains a comprehensive Formula of 28 Vitamins and minerals, specially designed to support individual immunity & health in adults over 50 years old for men.",
         "dosage_form": "Tablets",
         "package": "3 strips / strip 10 Tablets",
         "shelf_life": "Two years",
@@ -61,6 +61,16 @@
     },
     {
         "id": 7,
+        "name": "Nithalo for Women",
+        "active": "Multivitamin",
+        "indication": "Nithalo Contains a comprehensive Formula of 28 Vitamins and minerals, specially designed to support individual immunity & health in adults over 50 years old for women.",
+        "dosage_form": "Tablets",
+        "package": "3 strips / strip 10 Tablets",
+        "shelf_life": "Two years",
+        "images": ["9.png", "4.png"]
+    },
+    {
+        "id": 8,
         "name": "YONATREVON Capsules",
         "active": "Alpha-Lipoic acid 300mg + Vitamin B6 & B12 + Folic acid",
         "indication": "Supports nervous system health.,Supports energy metabolism.",

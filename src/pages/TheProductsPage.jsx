@@ -38,7 +38,7 @@ function TheProductsPage() {
             </div>
             <div className="container">
                 <h2 className="text-center text-[45px]">Our Products</h2>
-                <div className="products pt-[50px] flex justify-between items-stretch flex-wrap gap-[20px]">
+                <div className="products pt-[50px] flex items-stretch flex-wrap gap-[25px]">
                     {products.map((product) => {
                         return <AProduct key={product.id} product={product} />;
                     })}
