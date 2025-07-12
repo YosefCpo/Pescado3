@@ -8,10 +8,12 @@ function AboutFirstSection({ language }) {
         <div className="max-w-[700px] mt-[100px] mx-auto bg-[#00021d]">
             <h2 className="font-bold text-[46px]">Discover your Potential!</h2>
             <p className="text-[18px] mt-[20px]">
-                Who isn't always striving to live a healthier life but is too lazy to start or simply doesn't have the
-                time or drive to do so? The healthy life we refer to isn't the one that is free of chronic diseases but
-                a life filled with energy and vitality that improves your fitness & shows a significant and noticable
-                improvement in your quality of sleep and overall heath
+                Most of us want to live healthier—not just to avoid illness, but to wake up feeling refreshed, move with
+                ease, and sleep through the night without tossing and turning. But life gets in the way. We're busy,
+                tired, distracted, or just not sure how to begin. Real health isn't found in extremes or perfection—it's
+                built in the quiet, consistent moments we choose ourselves. A short walk. A glass of water instead of
+                that third coffee. Stretching before bed. These aren't life-altering in isolation, but they create a
+                ripple. Over time, they build energy, vitality, and a sleep quality that actually feels like rest.
             </p>
             <img className="mt-[40px] w-[470px] h-[300px] object-cover justify-self-end" src={MomImage} alt="" />
         </div>
