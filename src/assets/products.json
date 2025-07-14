@@ -7,7 +7,7 @@
         "dosage_form": "Film Coated Tablets",
         "package": "2 strips / strip 7 Tablets",
         "shelf_life": "Three years",
-        "images": ["Time.jpg", "3.png", "2.png"]
+        "images": ["Timp.png", "3.png", "2.png"]
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "dosage_form": "Capsules",
         "package": "3 strips / strip 10 Capsules",
         "shelf_life": "Two years",
-        "images": ["Lacto.jpg", "14.png", "15.png"]
+        "images": ["Lacto.png", "14.png", "15.png"]
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "dosage_form": "Tablets",
         "package": "3 strips / strip 10 Tablets",
         "shelf_life": "Two years",
-        "images": ["Youm.jpg", "12.png", "13.png"]
+        "images": ["Youma.png", "12.png", "13.png"]
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "dosage_form": "Sachets",
         "package": "10 Sachets/ sachet 20 gm",
         "shelf_life": "18 Months",
-        "images": ["Hanzo.jpg", "17.png", "18.png"]
+        "images": ["Hanzo.png", "17.png", "18.png"]
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
         "dosage_form": "Sachets",
         "package": "10 Sachets/ sachet 3 gm",
         "shelf_life": "Two years",
-        "images": ["Liliox.jpg", "6.png"]
+        "images": ["Lili.png", "6.png"]
     },
     {
         "id": 6,
@@ -57,7 +57,7 @@
         "dosage_form": "Tablets",
         "package": "3 strips / strip 10 Tablets",
         "shelf_life": "Two years",
-        "images": ["Nithalo.jpg", "9.png", "4.png"]
+        "images": ["NithaloMen.png", "9.png", "4.png"]
     },
     {
         "id": 7,
@@ -67,7 +67,7 @@
         "dosage_form": "Tablets",
         "package": "3 strips / strip 10 Tablets",
         "shelf_life": "Two years",
-        "images": ["NithaloWomen.jpg", "9.png", "4.png"]
+        "images": ["NithaloWomen.png", "9.png", "4.png"]
     },
     {
         "id": 8,
@@ -77,6 +77,16 @@
         "dosage_form": "Capsules",
         "package": "3 strips / strip 10 Capsules",
         "shelf_life": "Two years",
-        "images": ["Yona.jpg", "1.png"]
+        "images": ["Yom.png", "1.png"]
+    },
+    {
+        "id": 9,
+        "name": "Esomium 40mg Capsules",
+        "active": "Esomeprazole 40mg",
+        "indication": "GERD,Treatment of erosive reflux esophagitis,Long term management of healed esophagitis to prevent relapse.,H-pylori ( In combination with appropriate antibacterial therapeutic regimen ),Prevention of relapse of peptic ulcers,Patient requiring continued NSAIDs Therapy",
+        "dosage_form": "Capsules Containing delayed release pellets",
+        "package": "2 strips / strip 7 Capsules",
+        "shelf_life": "Three years",
+        "images": ["Eso-v2.png", "1.png"]
     }
 ]

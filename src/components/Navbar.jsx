@@ -51,13 +51,13 @@ function Navbar({ language, setLanguage }) {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/about" onClick={closeMenu}>
-                            About Us
+                        <Link to="/pharmacovigilance" onClick={closeMenu}>
+                            Pharmacovigilance
                         </Link>
                     </li>
                     <li>
-                        <Link to="/pharmacovigilance" onClick={closeMenu}>
-                            Pharmacovigilance
+                        <Link to="/about" onClick={closeMenu}>
+                            About Us
                         </Link>
                     </li>
                 </ul>
