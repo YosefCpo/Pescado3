@@ -2,10 +2,7 @@ import { Link } from "react-router-dom";
 
 function AProduct({ product }) {
     return (
-        <Link
-            to={`/products/${product.id}`}
-            className="product flex flex-col items-center gap-[20px] !px-[50px] !py-[50px]"
-        >
+        <Link to={`/products/${product.id}`} className="product flex flex-col items-center gap-[20px]">
             <img src={`/Images/${product.images[0]}`} />
             <h2 className="text-[17px] font-[500]">{product.name}</h2>
             <h3>Active: {product.active}</h3>
