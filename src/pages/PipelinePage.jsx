@@ -5,7 +5,7 @@ import BecomePartner from "../components/Home/BecomePartner";
 
 function PipelinePage() {
     const product = products.find((product) => {
-        return product.id == 8;
+        return product.id == 3;
     });
 
     return (
