@@ -17,12 +17,12 @@ function ProductPage() {
 
     return (
         <div>
-            <div className="header bg-[#00021d] py-[70px] text-center font-[700]">
+            <div className="header bg-[#00021d] pt-[150px] text-white text-center font-[700]">
                 <h2 className="text-[40px]">{product?.name}</h2>
             </div>
             <div className="py-[60px] bg-[#00021d] text-white" dir="ltr">
-                <div className="container flex items-center justify-center gap-[60px] flex-wrap">
-                    <img src={`/Images/${product?.images[0]}`} alt={product?.name} />
+                <div className="container flex items-center justify-center gap-[60px] max-lg:flex-col">
+                    <img className="max-w-[500px]" src={`/Images/${product?.images[0]}`} alt={product?.name} />
                     <div className="info flex flex-col gap-[10px] text-[20px]">
                         <h2 className="font-bold text-[20px]">Name: {product?.name}</h2>
                         <h3>Active: {product?.active}</h3>
