@@ -3,8 +3,19 @@ import AProduct from "../components/AProduct";
 import "../assets/css/products.css";
 import BecomePartner from "../components/Home/BecomePartner";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 function TheProductsPage() {
+    const [filteredProducts, setFilteredProducts] = useState();
+
+    useEffect(() => {
+        const filtered = products.filter((product) => {
+            return product.id !== 8;
+        });
+
+        setFilteredProducts(filtered);
+    }, []);
+
     const closePopup = (e) => {
         e.preventDefault();
 
@@ -39,7 +50,7 @@ function TheProductsPage() {
             <div className="container">
                 <h2 className="text-center text-[45px]">Our Products</h2>
                 <div className="products pt-[50px] flex items-stretch flex-wrap gap-[25px]">
-                    {products.map((product) => {
+                    {filteredProducts?.map((product) => {
                         return <AProduct key={product.id} product={product} />;
                     })}
                 </div>
