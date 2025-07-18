@@ -70,6 +70,16 @@
         "images": ["NithaloWomen.png", "9.png", "4.png"]
     },
     {
+        "id": 8,
+        "name": "YONATREVON Capsules",
+        "active": "Alpha-Lipoic acid 300mg + Vitamin B6 & B12 + Folic acid",
+        "indication": "Supports nervous system health.,Supports energy metabolism.",
+        "dosage_form": "Capsules",
+        "package": "3 strips / strip 10 Capsules",
+        "shelf_life": "Two years",
+        "images": ["Yom.png", "9.png", "4.png"]
+    },
+    {
         "id": 9,
         "name": "Esomium 40mg Capsules",
         "active": "Esomeprazole 40mg",
