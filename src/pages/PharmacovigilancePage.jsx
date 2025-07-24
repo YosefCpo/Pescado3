@@ -3,7 +3,7 @@ import Form from "../components/Pharma/Form";
 
 function PharmacovigilancePage() {
     return (
-        <div className="bg-[#00021d] text-white pt-[200px] pb-[100px]">
+        <div className="bg-[#ffffff] text-[#00021d] pt-[200px] pb-[100px]">
             <div className="container">
                 <div className="flex items-center gap-[20px] max-md:flex-col max-md:items-center">
                     <div className="flex-1">

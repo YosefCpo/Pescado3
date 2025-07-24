@@ -1,6 +1,6 @@
 function LeadersAgy2() {
     return (
-        <div className="leaders bg-[#00021d] text-white py-[60px] pt-[40px] pb-[40px]">
+        <div className="leaders bg-[#ffffff] text-[#00021d] py-[60px] pt-[40px] pb-[40px]">
             <div className="container">
                 <div className="heading flex flex-col items-center gap-[50px]">
                     <h2 className="text-[55px] max-sm:text-[45px] max-w-[600px] text-center">

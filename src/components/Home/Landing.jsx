@@ -3,9 +3,9 @@ import LandingImage from "../../assets/images/pngtree.png";
 
 function Landing() {
     return (
-        <div className="bg-[#00021d] max-xl:pt-[60px]">
+        <div className="bg-[#ffffff] max-xl:pt-[60px]">
             <div className="container flex items-center pt-[160px] pb-[30px] gap-[20px] max-xl:flex-col max-xl:items-center">
-                <div className="info flex-1 text-white flex flex-col gap-[50px] max-xl:items-center max-xl:text-center">
+                <div className="info flex-1 text-[#00021d] flex flex-col gap-[50px] max-xl:items-center max-xl:text-center">
                     <h2 className="text-[50px] max-w-[500px] leading-[1.2]">
                         Empowering Patients Through Innovative Pharmaceuticals
                     </h2>
@@ -21,19 +21,19 @@ function Landing() {
                     <div className="flex items-center gap-[20px]">
                         <Link
                             to="/about"
-                            className="bg-white border-[1px] border-white text-black py-[15px] px-[50px] txet-[18px] rounded-full"
+                            className="border-[1px] border-[#00021d] bg-[#00021d] text-white py-[15px] px-[50px] txet-[18px] rounded-full"
                         >
                             About Us
                         </Link>
                         <Link
                             to="/products"
-                            className="bg-transparent border-[1px] border-white text-white py-[15px] px-[50px] txet-[18px] rounded-full"
+                            className="bg-transparent border-[1px] border-[#00021d] text-[#00021d] py-[15px] px-[50px] txet-[18px] rounded-full"
                         >
                             Our Products
                         </Link>
                     </div>
                 </div>
-                <div className="bg-[#00021D] flex-1">
+                <div className="bg-[#ffffff] flex-1">
                     <div className="shadow"></div>
                     <img className="max-w-full" src={LandingImage} />
                 </div>

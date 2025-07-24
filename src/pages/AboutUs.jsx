@@ -5,7 +5,7 @@ import Leaders from "../components/Home/Leaders";
 
 function AboutUs({ language }) {
     return (
-        <div className="bg-[#00021d] pt-[150px] text-white">
+        <div className="bg-[#ffffff] pt-[150px] text-[#00021d]">
             <div className="container">
                 <AboutFirstSection language={language} />
                 <AboutSecondSection language={language} />

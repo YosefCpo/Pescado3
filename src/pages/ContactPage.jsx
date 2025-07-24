@@ -6,7 +6,7 @@ function ContactPage({ language }) {
     const { t } = useTranslation();
 
     return (
-        <div className="pt-[220px] pb-[110px] bg-[#00021d] text-white">
+        <div className="pt-[220px] pb-[110px] bg-[#ffffff] text-white">
             <div className="container flex gap-[30px]">
                 <div className="info flex-[0.5]">
                     <h2 className="text-[45px] font-[500]">Welcome!</h2>

@@ -3,7 +3,7 @@ import products from "../assets/products.json";
 function PipelineSection() {
     return (
         <div className="py-[60px] flex flex-col gap-[50px]">
-            <div className="box flex gap-[30px] bg-white text-black rounded-2xl p-[30px] max-md:flex-col max-md:items-center max-md:text-center">
+            <div className="box flex gap-[30px] bg-white text-black border-[1px] border-[#00021d] rounded-2xl p-[30px] max-md:flex-col max-md:items-center max-md:text-center">
                 <div className="index">
                     <h2 className="text-[20px] font-[500] w-[50px] h-[50px] flex items-center justify-center rounded-full border-[1px] border-black">
                         1
@@ -34,7 +34,7 @@ function PipelineSection() {
                     </div>
                 </div>
             </div>
-            <div className="box flex gap-[30px] bg-white text-black rounded-2xl p-[30px] max-md:flex-col max-md:items-center max-md:text-center">
+            <div className="box flex gap-[30px] bg-white text-black border-[1px] border-[#00021d] rounded-2xl p-[30px] max-md:flex-col max-md:items-center max-md:text-center">
                 <div className="index">
                     <h2 className="text-[20px] font-[500] w-[50px] h-[50px] flex items-center justify-center rounded-full border-[1px] border-black">
                         2

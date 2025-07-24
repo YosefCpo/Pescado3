@@ -5,7 +5,7 @@ function AboutFirstSection({ language }) {
     const { t } = useTranslation();
 
     return (
-        <div className="max-w-[700px] mt-[100px] mx-auto bg-[#00021d]">
+        <div className="max-w-[700px] mt-[100px] mx-auto bg-[#ffffff] flex flex-col items-center text-center">
             <h2 className="font-bold text-[46px]">Discover your Potential!</h2>
             <p className="text-[18px] mt-[20px]">
                 Most of us want to live healthier—not just to avoid illness, but to wake up feeling refreshed, move with
@@ -15,7 +15,7 @@ function AboutFirstSection({ language }) {
                 that third coffee. Stretching before bed. These aren't life-altering in isolation, but they create a
                 ripple. Over time, they build energy, vitality, and a sleep quality that actually feels like rest.
             </p>
-            <img className="mt-[40px] w-[470px] h-[300px] object-cover justify-self-end" src={MomImage} alt="" />
+            <img className="mt-[40px] object-cover" src={MomImage} alt="" />
         </div>
     );
 }

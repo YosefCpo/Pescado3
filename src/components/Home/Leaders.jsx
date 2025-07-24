@@ -1,5 +1,5 @@
 import Image from "../../assets/images/Agy.png";
-import Arrow from "../../assets/images/arrow-up.png";
+import Arrow from "../../assets/images/arrow-up-dark.png";
 import "../../assets/css/leaders.css";
 
 function Leaders() {
@@ -25,7 +25,7 @@ function Leaders() {
     };
 
     return (
-        <div className="leaders bg-[#00021d] text-white py-[60px] pt-0">
+        <div className="leaders bg-[#ffffff] text-[#00021d] py-[60px] pt-0">
             <div className="container">
                 {/* <div className="heading flex flex-col items-center gap-[50px]">
                     <h2 className="text-[40px] max-w-[550px] text-center">
