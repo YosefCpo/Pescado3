@@ -5,7 +5,7 @@ import "../assets/css/footer.css";
 
 function TheFooter() {
     return (
-        <footer className="bg-[#1a1c37] text-white py-[50px]">
+        <footer className="bg-[#1a1c37] bg-[#25477a] text-white py-[50px]">
             <div className="container">
                 <div className="boxes max-lg:flex max-lg:flex-col max-lg:!gap-[70px]">
                     <div className="box">

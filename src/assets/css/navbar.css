@@ -5,6 +5,7 @@
 
 .navbar .container {
     /* box-shadow: #00021d 0 0 20px 11px; */
+    background: linear-gradient(to right, #00021d, #852b99);
 }
 
 .navbar .container .open-menu {
